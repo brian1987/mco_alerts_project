@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
+  resources :alerts do
+    collection { post :import}
+  end
   get 'home/index'
 
+  root :to => "alerts#index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

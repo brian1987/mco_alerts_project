@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @alert.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @alert.last_name %>
+</p>
+
+<p>
+  <strong>Dob:</strong>
+  <%= @alert.dob %>
+</p>
+
+<p>
+  <strong>Medicaid:</strong>
+  <%= @alert.medicaid_id %>
+</p>
+
+<p>
+  <strong>Alert:</strong>
+  <%= @alert.alert %>
+</p>
+
+<%= link_to 'Edit', edit_alert_path(@alert) %> |
+<%= link_to 'Back', alerts_path %>

@@ -62,7 +62,7 @@ class AlertsController < ApplicationController
   end
 
   def import
-    Alerts.import(params[:file])
+    Alert.import(params[:file])
     redirect_to root_url, notice: "Alerts Imported"
   end
 

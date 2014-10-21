@@ -6,3 +6,5 @@ class Alert < ActiveRecord::Base
     end
   end
 end
+
+#Need to figure out how to persist to DB

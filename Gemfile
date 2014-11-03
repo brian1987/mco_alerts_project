@@ -29,6 +29,9 @@ gem 'spring',        group: :development
 gem 'soap4r', '~> 1.5.8'
 # Above gem is for handling web services
 
+gem 'handsoap'
+#Above gem is a better way for handling web services
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

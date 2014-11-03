@@ -32,6 +32,8 @@ gem 'soap4r', '~> 1.5.8'
 gem 'handsoap'
 #Above gem is a better way for handling web services
 
+gem 'builder'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

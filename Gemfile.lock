@@ -117,6 +117,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  builder
   coffee-rails (~> 4.0.0)
   handsoap
   jbuilder (~> 2.0)

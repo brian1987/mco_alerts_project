@@ -11,7 +11,7 @@ require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
 require 'csv'
-
+require 'iconv'
 #Inserting a comment just for the hell of it
 
 # Require the gems listed in Gemfile, including any gems

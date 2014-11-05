@@ -34,6 +34,8 @@ gem 'handsoap'
 #I make and sell soap
 gem 'builder'
 
+gem 'roo'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

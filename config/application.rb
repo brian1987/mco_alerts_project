@@ -10,8 +10,13 @@ require "action_view/railtie"
 require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
+
+# These require files blew up my rails server...don't know why
 require 'csv'
-require 'iconv'
+# require 'iconv'
+
+
+
 #Inserting a comment just for the hell of it
 
 # Require the gems listed in Gemfile, including any gems

@@ -34,6 +34,8 @@ gem 'handsoap'
 #I make and sell soap
 gem 'builder'
 
+#barely programmed today
+
 gem 'roo'
 #more comments
 # Use ActiveModel has_secure_password

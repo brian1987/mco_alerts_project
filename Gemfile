@@ -35,7 +35,7 @@ gem 'handsoap'
 gem 'builder'
 
 #barely programmed today
-
+#this comment brought to you by Pete Holmes
 gem 'roo'
 #more comments
 # Use ActiveModel has_secure_password

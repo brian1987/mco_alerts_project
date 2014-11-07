@@ -38,6 +38,7 @@ gem 'builder'
 #this comment brought to you by Pete Holmes
 gem 'roo'
 #more comments
+#stuff
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -39,7 +39,7 @@ gem 'builder'
 gem 'roo'
 #more comments
 #stuff
-#aosfasjfoasjfoads
+#aosfasjfoasjfoadssfdassdf
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -28,7 +28,6 @@ class Alert < ActiveRecord::Base
   #   else raise "Unknown file type: #{file.original_filename}"
   #   end
   # end
-
 end
 
 #Need to figure out how to persist to DB

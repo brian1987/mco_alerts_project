@@ -7,7 +7,7 @@ class Alert < ActiveRecord::Base
   end
 
   #Above worked just to import CSV
-
+  #how am i going to send this stuff
   #Testing new import method below
   # def self.import(file)
   #   spreadsheet = open_spreadsheet(file)

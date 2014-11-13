@@ -31,7 +31,7 @@ gem 'soap4r', '~> 1.5.8'
 
 gem 'handsoap'
 #Above gem is a better way for handling web services
-#I make and sell soap
+#I make and sell soap FIGHT CLUbBBB
 gem 'builder'
 
 #barely programmed today

@@ -35,9 +35,9 @@ gem 'handsoap'
 gem 'builder'
 
 #barely programmed today
-#this comment brought to you by Pete Holmes
+
 gem 'roo'
-#more comments
+#Savon will help me resolve all my issues
 gem 'savon', '~> 2.3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

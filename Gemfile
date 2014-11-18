@@ -33,7 +33,6 @@ gem 'handsoap'
 #Above gem is a better way for handling web services
 gem 'builder'
 
-#barely programmed today
 
 gem 'roo'
 #Savon will help me resolve all my issues

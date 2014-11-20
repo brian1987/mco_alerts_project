@@ -7,7 +7,7 @@ class Alert < ActiveRecord::Base
   end
 
 
-  # Should I create a new model to send alert message. Text below establishes
+  # Should I create a new model to send alert message? Text below establishes
   # connection w/ Stagin in GSI
   # client = Savon.client(wsdl: "https://staging.gsihealth.com:8083/NotificationManager-1.0/NotificationConsumer?wsdl")
   # <Savon::Client:0x000001040d5840 @globals=#<Savon::GlobalOptions:0x000001040d5818 
@@ -19,12 +19,14 @@ class Alert < ActiveRecord::Base
   # @mon_owner=nil, @mon_count=0, @mon_mutex=#<Mutex:0x000001040d55e8>>>>, 
   # :log=>true, :filters=>[], :pretty_print_xml=>false, :raise_errors=>true, 
   # :strip_namespaces=>true, :convert_response_tags_to=>
-  #<Proc:0x000001040d5548@/usr/local/rvm/gems/ruby-2.0.0-p353/gems/savon-2.3.3/lib/savon/options.rb:56 (lambda)>, 
+  # <Proc:0x000001040d5548@/usr/local/rvm/gems/ruby-2.0.0-p353/gems/savon-2.3.3/lib/savon/options.rb:56 (lambda)>, 
   # :multipart=>false, :wsdl=>"https://staging.gsihealth.com:8083/NotificationManager-1.0/NotificationConsumer?wsdl"}>, 
   # @wsdl=#<Wasabi::Document:0x000001040d5160 @document="https://staging.gsihealth.com:8083/NotificationManager-1.0/NotificationConsumer?wsdl", 
   # @request=#<HTTPI::Request:0x000001040d5070>>> 
 
 
+
+  #Go back to the railscast
   #Above worked just to import CSV
   #how am i going to send this stuff
   #Testing new import method below

@@ -22,7 +22,7 @@ class Alert < ActiveRecord::Base
   # <Proc:0x000001040d5548@/usr/local/rvm/gems/ruby-2.0.0-p353/gems/savon-2.3.3/lib/savon/options.rb:56 (lambda)>, 
   # :multipart=>false, :wsdl=>"https://staging.gsihealth.com:8083/NotificationManager-1.0/NotificationConsumer?wsdl"}>, 
   # @wsdl=#<Wasabi::Document:0x000001040d5160 @document="https://staging.gsihealth.com:8083/NotificationManager-1.0/NotificationConsumer?wsdl", 
-  # @request=#<HTTPI::Request:0x000001040d5070>>> 
+  # @request=#<HTTPI::Request:0x000001040d5070>>> asdfasdf
 
 
 

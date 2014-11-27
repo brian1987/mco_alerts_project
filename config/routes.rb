@@ -43,7 +43,7 @@ Rails.application.routes.draw do
   #     resources :sales do
   #       get 'recent', on: :collection
   #     end
-  #   end asfasd
+  #   end asfasdasdfasdfas
 
   # Example resource route with concerns:
   #   concern :toggleable do

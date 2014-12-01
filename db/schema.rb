@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140923193230) do
+ActiveRecord::Schema.define(version: 20141201000433) do
 
   create_table "alerts", force: true do |t|
     t.string   "first_name"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20140923193230) do
     t.text     "alert"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "excel"
   end
 
 end

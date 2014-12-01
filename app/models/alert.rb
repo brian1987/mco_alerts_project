@@ -1,4 +1,8 @@
 class Alert < ActiveRecord::Base
+
+
+  mount_uploader :excel, ExcelUploader
+  
   def self.import(file)
     CSV.foreach(file.path, headers: true) do |row|
       alert = Alert.create! row.to_hash

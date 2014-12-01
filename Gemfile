@@ -33,6 +33,7 @@ gem 'handsoap'
 #Above gem is a better way for handling web services
 gem 'builder'
 
+gem 'carrierwave'
 
 gem 'roo'
 

@@ -31,8 +31,10 @@
 </div>
 <br>
 
-<%= link_to 'New Alert', new_alert_path %>
-
+<%= link_to 'Create New Alert', new_alert_path %>
+<br>
+<br>
+<br>
 
 <%= form_tag import_alerts_path, multipart: true do %>
   <%= file_field_tag :file %>

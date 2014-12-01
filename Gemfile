@@ -37,7 +37,7 @@ gem 'carrierwave'
 
 gem 'roo'
 
-gem 'savon', '~> 2.3.0'
+gem 'savon', github: 'savonrb/savon'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -2,7 +2,7 @@ class Alert < ActiveRecord::Base
 
 
   mount_uploader :excel, ExcelUploader
-  
+
   def self.import(file)
     CSV.foreach(file.path, headers: true) do |row|
       alert = Alert.create! row.to_hash
@@ -10,7 +10,7 @@ class Alert < ActiveRecord::Base
     end
   end
 
-
+  #Working with Savon
   # Should I create a new model to send alert message? Text below establishes
   # connection w/ Stagin in GSI
   # client = Savon.client(wsdl: "https://staging.gsihealth.com:8083/NotificationManager-1.0/NotificationConsumer?wsdl")
@@ -55,4 +55,3 @@ class Alert < ActiveRecord::Base
   # end
 end
 
-#Need to figure out how to persist to DB
